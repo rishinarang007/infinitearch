@@ -1,0 +1,64 @@
+{
+  "name": "react-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "nbstart": "webpack-dev-server --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmartide/react-webpack-playground.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rmartide/react-webpack-playground/issues"
+  },
+  "homepage": "https://github.com/rmartide/react-webpack-playground#readme",
+  "dependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-proposal-decorators": "^7.15.4",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "bootstrap": "^4.5.0",
+    "file-loader": "^6.0.0",
+    "inversify": "^5.1.1",
+    "jsxobj": "^1.1.0",
+    "mobx": "^6.0.4",
+    "mobx-react": "^7.0.5",
+    "navigo": "7.1.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-google-login": "^5.1.21",
+    "react-redux": "^7.2.0",
+    "react-reveal": "^1.2.2",
+    "redux": "^4.0.5",
+    "reflect-metadata": "^0.1.13",
+    "tree-model": "1.0.7",
+    "url-loader": "^4.1.0",
+    "wait-for-expect": "3.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "16.8.8",
+    "@types/react-dom": "16.8.2",
+    "babel-plugin-lodash": "^3.3.2",
+    "babel-plugin-react-transform": "^3.0.0",
+    "css-loader": "^3.6.0",
+    "html-webpack-plugin": "^4.3.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.2",
+    "style-loader": "^1.2.1",
+    "typescript": "3.3.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
